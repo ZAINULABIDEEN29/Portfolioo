@@ -7,7 +7,7 @@ export default function Projects() {
         <div class="grid md:grid-cols-2 gap-8">
           <div class="project-card">
             <div class="project-image">
-              <img src="/one.jpeg" alt="E-Commerce Project">
+              <img src="../assets/one.jpeg" alt="E-Commerce Project">
               <div class="project-overlay">
                 <div class="text-white">
                   <h3 class="text-xl font-bold">Zimli-Tech Website</h3>
@@ -39,7 +39,7 @@ export default function Projects() {
           
           <div class="project-card">
             <div class="project-image">
-              <img src="/project-two.jpeg">
+              <img src="../assets/project-two.jpeg">
               <div class="project-overlay">
                 <div class="text-white">
                   <h3 class="text-xl font-bold">Hunny Bunny AI</h3>
