@@ -1,3 +1,5 @@
+import cv from '../assets/zainCV.pdf';
+
 export default function About() {
   return `
     <section id="about" class="section opacity-0 px-6 md:px-12 bg-white dark:bg-slate-900">
@@ -21,7 +23,7 @@ export default function About() {
                 <a href="#contact" class="bg-gradient-to-r from-primary to-secondary text-white px-6 py-3 rounded-lg font-medium hover:shadow-lg transition-all duration-300">
                   Hire Me
                 </a>
-                <a href="/src/assets/zainCV.pdf" class="border-2 border-primary text-primary dark:text-white dark:border-white px-6 py-3 rounded-lg font-medium hover:bg-primary hover:text-white transition-all duration-300">
+                <a href="${cv}" class="border-2 border-primary text-primary dark:text-white dark:border-white px-6 py-3 rounded-lg font-medium hover:bg-primary hover:text-white transition-all duration-300">
                   Download CV
                 </a>
               </div>
