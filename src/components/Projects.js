@@ -10,7 +10,7 @@ export default function Projects() {
         <div class="grid md:grid-cols-2 gap-8">
           <div class="project-card">
             <div class="project-image">
-              <img src="${oneImg}" alt="E-Commerce Project">
+              <img src="${oneImg}" alt="Zimlitech Website">
               <div class="project-overlay">
                 <div class="text-white">
                   <h3 class="text-xl font-bold">Zimli-Tech Website</h3>
