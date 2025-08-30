@@ -10,7 +10,7 @@ export default function Hero() {
       </div>
 
       <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center hero-content">
-        <div class="text-center md:text-left">
+        <div id="hero-div" class="text-center md:text-left">
           <h1 class="text-4xl mt-20 md:text-5xl lg:text-6xl font-bold text-gray-800 dark:text-white mb-6">
            Zain Ul<span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary"> Abideen</span>
           </h1>
@@ -33,7 +33,7 @@ export default function Hero() {
             </a>
           </div>
 
-          <div class="flex mt-12 space-x-6 justify-center md:justify-start">
+          <div  class="flex mt-12 space-x-6 justify-center md:justify-start">
             <a href="https://github.com/ZAINULABIDEEN29"
               class="social-icon w-12 h-12 rounded-full bg-white dark:bg-slate-800 shadow-md flex items-center justify-center text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary hover:shadow-lg">
               <i class="fab fa-github text-xl"></i>
@@ -53,10 +53,10 @@ export default function Hero() {
           </div>
         </div>
         
-        <div class="hero-card p-8 flex justify-center">
-          <div class="profile-image">
-            <div class="w-64 h-64 md:w-80 md:h-80 bg-slate-200 dark:bg-slate-700 rounded-full overflow-hidden shadow-xl flex items-center justify-center">
-              <div id="lottie-container" class="w-full h-full flex items-center justify-center">
+        <div  class="hero-card p-8 flex justify-center">
+          <div  class="profile-image">
+            <div  class="w-64 h-64 md:w-80 md:h-80 bg-slate-200 dark:bg-slate-700 rounded-full overflow-hidden shadow-xl flex items-center justify-center">
+              <div id="hero-img" id="lottie-container" class="w-full h-full flex items-center justify-center">
                   <dotlottie-wc src="https://lottie.host/63c1f87e-c3d6-4a0b-9260-a595f7a6d392/lKoMYgfWg3.lottie"
                 style="width: 300px;height: 300px" speed="1" autoplay loop></dotlottie-wc>
               </div>

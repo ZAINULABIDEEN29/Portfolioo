@@ -1,8 +1,8 @@
 
 export default function Skills() {
   return `
-    <section id="skills" class="section px-4 sm:px-6 md:px-12 bg-gradient-to-br from-gray-50 via-white to-gray-100 dark:from-slate-800 dark:via-slate-900 dark:to-slate-800 py-20">
-      <div class="max-w-6xl mx-auto">
+    <section id="skills" class="section opacity-0 transform translate-y-[10%] px-4 sm:px-6 md:px-12 bg-gradient-to-br from-gray-50 via-white to-gray-100 dark:from-slate-800 dark:via-slate-900 dark:to-slate-800 py-20">
+      <div id="skills-content" class="max-w-6xl mx-auto">
         <h2 class="text-4xl font-extrabold text-center text-gray-800 dark:text-white mb-14 tracking-tight section-title animate-fade-in">Skills</h2>
         <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
           <div class="skill-card flex flex-col items-center bg-white/80 dark:bg-slate-900/80 rounded-2xl shadow-xl p-8 hover:scale-105 hover:shadow-2xl transition-all duration-300 group animate-slide-up" style="backdrop-filter: blur(6px);">

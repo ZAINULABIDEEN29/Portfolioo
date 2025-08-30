@@ -1,6 +1,6 @@
 export default function About() {
   return `
-    <section id="about" class="section px-6 md:px-12 bg-white dark:bg-slate-900">
+    <section id="about" class="section opacity-0 px-6 md:px-12 bg-white dark:bg-slate-900">
       <div class="max-w-6xl mx-auto">
         <h2 class="text-3xl font-bold text-center  text-gray-800 dark:text-white mb-12 section-title">About Me</h2>
         

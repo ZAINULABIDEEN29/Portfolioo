@@ -9,11 +9,13 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
+
 import { initTheme } from './utils/theme';
 import { initTypingEffect } from './utils/animations';
 import { initParticles } from './utils/particles';
+import { onScrollAimation } from './utils/gsap';
 
-// Render the app
+
 document.getElementById('app').innerHTML = `
   ${Navbar()}
   ${Hero()}
@@ -28,6 +30,11 @@ document.getElementById('app').innerHTML = `
 initTheme();
 initTypingEffect();
 initParticles();
+onScrollAimation();
+
+function mobileMenuToggle(){
+
+
 
 // Mobile menu functionality
 const menuToggle = document.getElementById('menu-toggle');
@@ -69,3 +76,6 @@ window.addEventListener('scroll', () => {
     navbar.classList.remove('scrolled');
   }
 });
+
+}
+mobileMenuToggle();
