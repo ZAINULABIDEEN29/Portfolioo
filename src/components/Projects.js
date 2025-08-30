@@ -1,3 +1,6 @@
+import oneImg from '../assets/one.jpeg';
+import projectTwoImg from '../assets/project-two.jpeg';
+
 export default function Projects() {
   return `
     <section id="projects" class="section px-6 md:px-12 bg-gray-50 dark:bg-slate-800">
@@ -7,7 +10,7 @@ export default function Projects() {
         <div class="grid md:grid-cols-2 gap-8">
           <div class="project-card">
             <div class="project-image">
-              <img src="/src/assets/one.jpeg" alt="Zimlitech Website">
+              <img src="${oneImg}" alt="Zimlitech Website">
               <div class="project-overlay">
                 <div class="text-white">
                   <h3 class="text-xl font-bold">Zimli-Tech Website</h3>
@@ -39,7 +42,7 @@ export default function Projects() {
           
           <div class="project-card">
             <div class="project-image">
-              <img src="/src/assets/project-two.jpeg">
+              <img src="${projectTwoImg}">
               <div class="project-overlay">
                 <div class="text-white">
                   <h3 class="text-xl font-bold">Hunny Bunny AI</h3>
