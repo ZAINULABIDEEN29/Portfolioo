@@ -34,11 +34,11 @@ export default function Hero() {
           </div>
 
           <div class="flex mt-12 space-x-6 justify-center md:justify-start">
-            <a href="#"
+            <a href="https://github.com/ZAINULABIDEEN29"
               class="social-icon w-12 h-12 rounded-full bg-white dark:bg-slate-800 shadow-md flex items-center justify-center text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary hover:shadow-lg">
               <i class="fab fa-github text-xl"></i>
             </a>
-            <a href="#"
+            <a href="https://www.linkedin.com/in/zain-ul-abideen-38a921229/"
               class="social-icon w-12 h-12 rounded-full bg-white dark:bg-slate-800 shadow-md flex items-center justify-center text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 hover:shadow-lg">
               <i class="fab fa-linkedin-in text-xl"></i>
             </a>

@@ -1,8 +1,8 @@
 
 export default function Footer() {
   return `
-  <footer class="w-full bg-gray-50 dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800 pt-10 pb-4 ">
-      <div class="max-w-7xl mx-auto px-4">
+  <footer class="w-full  bg-gray-50 dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800 pt-10 pb-4 ">
+      <div class="max-w-7xl mx-auto md:px-12  px-8 ">
         <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-10">
           <!-- Left: Brand & Social -->
           <div class="flex-1 min-w-[220px]">
@@ -29,10 +29,10 @@ export default function Footer() {
             </ul>
           </div>
           <!-- Right: Newsletter -->
-          <div class="flex-1 min-w-[220px]">
+          <div class=" flex-wrap min-w-[220px]">
             <h3 class="font-semibold text-gray-900 dark:text-white mb-2">Stay Updated</h3>
             <p class="text-gray-600 dark:text-gray-300 text-sm mb-3">Subscribe to my newsletter for the latest updates and articles.</p>
-            <form class="flex">
+            <form class="flex-wrap ">
               <input type="email" class="rounded-l-md border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Your email" required />
               <button type="submit" class="rounded-r-md bg-gray-900 dark:bg-blue-600 text-white px-4 py-2 text-sm font-semibold hover:bg-blue-700 dark:hover:bg-blue-700 transition-colors">Subscribe</button>
             </form>
