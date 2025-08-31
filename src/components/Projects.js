@@ -51,7 +51,7 @@ export default function Projects() {
               </div>
             </div>
             <div class="p-6">
-              <h3 class="text-xl font-bold text-gray-800 dark:text-white mb-2">Financial Analytics Dashboard</h3>
+              <h3 class="text-xl font-bold text-gray-800 dark:text-white mb-2">Hunny Bunny AI</h3>
               <p class="text-gray-600 dark:text-gray-300 mb-4">A fully featured women’s health platform that helps users track ovulation cycles and plan pregnancies with confidence. The website features a modern, responsive, and user-friendly interface paired with an advanced ovulation calculator for accurate fertility predictions.Built with Laravel (backend) and HTML, CSS, JavaScript,</p>
               <div class="mb-4">
                 <span class="tech-tag">HTML</span>
